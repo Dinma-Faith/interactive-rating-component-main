@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - [ Solution URL](https://github.com/Dinma-Faith/interactive-rating-component-main/tree/develop)
-- [Live Site URL](https://your-live-site-url.com)
+- [Live Site URL](https://dinma-faith.github.io/interactive-rating-component-main/)
 
 ### Built with
 
