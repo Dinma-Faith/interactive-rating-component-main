@@ -31,12 +31,4 @@ document.addEventListener('DOMContentLoaded', function() {
         ratingState.style.display = 'none';
         thankYouState.style.display = 'block';
     });
-
-    console.log({
-        ratingButtons: document.querySelectorAll('[data-rating-btn]').length,
-        submitButton: !!document.querySelector('[data-submit-btn]'),
-        ratingCard: !!document.querySelector('.rating-state'),
-        thankYouCard: !!document.querySelector('.thank-you-state'),
-        selectedRatingDisplay: !!document.querySelector('[data-rated-value]')
-    });
 });
