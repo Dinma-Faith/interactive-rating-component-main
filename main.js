@@ -7,7 +7,6 @@ document.addEventListener('DOMContentLoaded', function() {
     
     let selectedRating = null;
 
-    // Handle rating selection
     ratingButtons.forEach(button => {
         button.addEventListener('click', function() {
             ratingButtons.forEach(btn => btn.classList.remove('active'));
