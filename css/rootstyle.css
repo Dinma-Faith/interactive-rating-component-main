@@ -1,0 +1,34 @@
+:root {
+  /* STYLE GUIDE */
+  --orange: hsl(25, 97%, 53%);
+  --white: hsl(0, 100%, 100%);
+  --light-grey: hsl(217, 12%, 63%); /** Grey 500*/
+  --dark-grey: hsl(213, 19%, 18%); /** Grey 900*/
+  --very-dark-grey: hsl(216, 12%, 8%); /** Grey 950*/
+
+  /* FIGMA */
+  --dark-blue: hsla(213, 19%, 18%, 1);
+  --black-gradient-top: linear-gradient(
+    to top,
+    hsla(215, 20%, 17%, 1),
+    transparent
+  );
+  --black-gradient-down: linear-gradient(
+    to bottom,
+    hsla(215, 24%, 12%, 1),
+    transparent
+  );
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Overpass", sans-serif;
+  background-color: var(--very-dark-grey);
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}

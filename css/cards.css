@@ -1,0 +1,110 @@
+.card {
+  background: var(--black-gradient-top), var(--black-gradient-down);
+  border-radius: 25px;
+  padding: 30px;
+  margin-inline: 10px;
+  max-width: 300px;
+  transform: scale(1);
+  transition: transform 0.3s ease;
+}
+
+@media (min-width: 768px) {
+    .card {
+        transform: scale(1.1);
+        max-width: 400px;
+    }
+}
+
+.star-icon {
+    background-color: var(--dark-blue);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.star-icon img {
+    width: 15px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: var(--light-grey);
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+.buttons-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.rating-btn {
+    background-color: var(--dark-grey);
+    color: var(--light-grey);
+    border: none;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.rating-btn:hover {
+    background-color: var(--orange);
+    color: var(--white);
+}
+
+.rating-btn:active,
+.rating-btn:focus {
+    background-color: var(--light-grey);
+    color: var(--white);
+}
+
+.submit-btn {
+    background-color: var(--orange);
+    color: hsla(218, 11%, 8%, 1);
+    border: none;
+    width: 100%;
+    padding: 12px;
+    border-radius: 25px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+submit-btn:hover {
+    background-color: var(--white);
+    color: var(--orange);
+}
+
+.thank-you-state {
+    text-align: center;
+    display: none;
+}
+
+.thank-you-image img {
+    width: 150px;
+} 
+
+.selected-rating {
+    background-color: var(--dark-grey);
+    color: var(--orange);
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
